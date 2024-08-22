@@ -1,0 +1,541 @@
+body {
+    background: #D5ED9F;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+main {
+    margin: 0 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Top Header */
+
+#top-header{
+    height: 96px;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    background: #FFFBE6;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    height: 96px;
+    padding: 0;
+    align-items: center;
+    color: white;
+}
+
+#logo img{
+    width: 96px;
+    margin-top: 20px;
+    padding: 0 16px;
+    transition: 0.8s ease-in-out;
+}
+
+#logo:hover img{
+    background: #A2CA71;
+    border-radius: 100%;
+}
+
+#logo h2{
+    font-size: 48px;
+    float: inline-end;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+#login{
+    height: 22px;
+    margin-top: 36px;
+    margin-right: 32px;
+    padding: 8px;
+    border: 2px solid #00002a;
+    transition: 0.4s;
+}
+
+#login:hover{
+    background: #D5ED9F;
+    cursor: pointer;
+}
+
+#login a{
+    padding: 8px;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    height: 72px;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    background: #00712D;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 48px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#search-icon {
+    height: 23px;
+    margin-top: 24px;
+    margin-right: 32px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+nav a:hover, #search-icon:hover {
+    color: #FF9100;
+}
+
+
+/* Banner */
+
+#banner{
+    background: rgba(0, 0, 0, 0.2) url("img/Banner.jpg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+#banner h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 84px;
+    background: #00712D;
+    padding: 16px;
+    border-radius: 40px 0;
+    color:darkred;
+    text-align: center;
+}
+
+
+/* Mission Section */
+
+#mission-section{
+    display: inline-block;
+}
+
+#mission-section h3{
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+#mission-card{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px dashed #00712D;
+    border-bottom: 2px solid #00712D;
+}
+
+#mission-card-description{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#mission-card-description p{
+    font-size: 20px;
+}
+
+
+/* What We Offer Section */
+
+#what_we_offer-section{
+    display: flex;
+}
+
+.what_we_offer-card{
+    background-image: url("img/bg\ what\ we\ offer.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;    
+    border: 4px solid #00002a;
+    border-radius: 32px;
+    width: 20%;
+    margin: 0 auto;
+    transition: 0.4s ease-in-out;
+}
+
+.what_we_offer-card:hover{
+    width: 23%;
+
+}
+
+.what_we_offer-card-description{
+    margin: 16px;
+}
+
+.what_we_offer-card h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+.what_we_offer-card p{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    background: #00712D;
+    padding: 8px;
+    color: #eee;
+    display: flex;
+    margin: 16px 64px 0;
+    border-radius: 32px 32px 0 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-footer h3{
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#top-footer ul{
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+    display: flex;
+}
+
+#top-footer a{
+    font-size: 20px;
+    flex-direction: row;
+    padding: 0 32px;
+}
+
+#top-footer a:hover{
+    text-decoration: underline;
+}
+
+#bottom-footer{
+    background: #D5ED9F;
+    color: #00002a;
+    width: 100%;
+    border-radius: 24px;
+}
+
+#bottom-footer p{
+    text-align: center;
+}
+
+
+
+/* ABOUT PAGE */
+
+#about_page-section{
+    margin-top: 64px;
+    margin-bottom: 49px;
+}
+
+#about_page-section h1{
+    font-size: 64px;
+}
+
+#about_page-section p{
+    font-size: 20px;
+}
+
+
+
+/* CONTACT PAGE */
+
+#contact_page-section{
+    margin-bottom: 86px;
+}
+
+#location{
+    display: inline-block;
+}
+
+#location h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+#location p{
+    font-size: 24px;
+    margin: 0;
+}
+
+#location_address{
+    margin-left: 24px;
+}
+
+#location_address p{
+    font-size: 20px;
+}
+
+#contact_number p{
+    font-size: 24px;
+}
+
+
+
+/* LOGIN PAGE */
+
+#login-body{
+    background: #80AF81;
+}
+
+#login-main-container{
+    width: 448px;
+    margin: 7% auto;
+    border: 1px solid black;
+}
+
+#login-logo-container{
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+#login-logo-container img{
+    width: 144px;
+}
+
+#login-form-container{
+    background: #00712D;
+    width: 100%;
+    margin: 0;
+}
+
+#login-form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.login-form-group{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.bmh-login-label{
+    color: #FF9100;
+    font-size: 20px;
+}
+
+.bmh-login-input{
+    font-size: 16px;
+    width: 100%;
+    height: 32px;
+    padding-left: 16px;
+    margin-left: -16px;
+    border: 0;
+}
+
+.bmh-login-input:focus{
+    outline: none;
+}
+
+#bmh-login-submit-btn{
+    margin-top: 5%;
+    background: #06D001;
+    height: 48px;
+    margin-left: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+#bmh-login-submit-btn:hover{
+    background: white;
+    color: #00712D;
+}
+
+#login-status{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+
+/* LOGGED-IN HOME PAGE */
+
+#market-header{
+    width: 1280px;
+    margin: 32px auto 48px;
+    display: flex;
+    justify-content: center;
+    border: 8px solid #059212;
+    transition: 0.4s;
+}
+
+#market-header:hover{
+    box-shadow: 0 0 16px 8px rgba(0, 140, 186, 0.5);
+}
+
+.market-header-description{
+    width: 49%;
+}
+
+#market-header h1{
+    font-family: "Railway", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 60px;
+    padding-left: 8px;
+    color: #00712D;
+}
+
+#market-header p{
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+#go-to-market-btn{
+    display: flex;
+    width: 256px;
+    margin: 0 auto;
+}
+
+#go-to-market-btn a{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    border: 4px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+
+#go-to-market-btn a:hover{
+    padding: 2px 12px;
+    background: #FF9100;
+}
+
+#market-header img{
+    width: 100%;
+    padding-top: 0.7%;
+    padding-left: 2%;
+}
+
+#top-selling-products-header{
+    width: 128px;
+    font-size: 24px;
+    margin: 0 auto 24px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    text-align: center;
+    padding: 8px 0;
+    transition: 0.4s;
+}
+
+#top-selling-products-header:hover{
+    padding: 8px 16px;
+    background: #FFA27F;
+}
+
+/* Grid Layout of Products */
+
+#market-main-container-grid{
+    width: 1280px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas: 'nav products';
+    gap: 90px;
+}
+
+#market-main-container-grid div{
+    background-color: #ADD899;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Categories */
+
+#market-category-navigation {
+    grid-area: "nav";
+    margin-top: -80px;
+    overflow-y: scroll;
+    height: 1024px;
+}
+
+#market-category-navigation h4{
+    margin-top: 5%;
+    color: #FF0000;
+}
+
+.market-category-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+#market-category-cards-description{
+    display: flex;
+    flex-direction: row;
+}
+
+#market-product-category{
+    color: red;
+}
+
+/* Top Selling products */
+
+#market-product-section {
+    grid-area: "products";
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 8px;
+}
+
